@@ -1,0 +1,20 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+
+  /* Trang chay tai  https://lnismeee.github.io/Dartcode52-groom/  tuc la mot duong
+     dan CON, khong phai goc ten mien. Khong khai bao base thi Vite sinh ra
+     duong dan kieu  /assets/index.js , trinh duyet se tim o
+     lnismeee.github.io/assets/... -> khong thay -> trang trang hoan toan.
+
+     Doi ten repo thi phai sua dong nay theo. */
+  base: '/Dartcode52-groom/',
+
+  // Cong mac dinh 5173; neu cong cu chay thu cap cong khac qua bien PORT thi dung cong do.
+  server: {
+    port: Number(process.env.PORT) || 5173,
+  },
+})

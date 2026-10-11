@@ -10,6 +10,7 @@ export const CONTENT = {
   vi: {
     htmlTitle: "Thiệp Cưới - Lã Ngọc & Lan Hương",
     dateLabel: "31 . 10 . 2026",
+    timeLabel: "16h00",
     cover: {
       eyebrow: "Trân trọng kính mời",
       button: "Mở Thiệp",
@@ -108,6 +109,7 @@ export const CONTENT = {
   en: {
     htmlTitle: "Wedding Invitation - La Ngoc & Lan Huong",
     dateLabel: "31 . OCT . 2026",
+    timeLabel: "4:00 PM",
     cover: {
       eyebrow: "You are cordially invited",
       button: "Open Invitation",

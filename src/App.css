@@ -1027,6 +1027,10 @@
   animation: hero-rise 0.9s ease 0.95s both;
 }
 
+.hero__time {
+  animation: hero-rise 0.9s ease 1.05s both;
+}
+
 .countdown {
   animation: hero-rise 0.9s ease 1.15s both;
 }
@@ -1070,6 +1074,23 @@
   /* Cung font voi dong SAVE THE DATE ngay tren */
   font-family: var(--font-body);
   font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--white);
+  text-shadow:
+    0 1px 3px rgba(8, 24, 40, 0.8),
+    0 2px 16px rgba(8, 24, 40, 0.6);
+}
+
+/* Dong gio le, nam ngay duoi ngay cuoi. Chi co dong dem nguoc thi khach phai
+   tu cong tru moi biet may gio - ghi thang ra cho khoi phai doan.
+   Co nho hon .hero__date mot bac de ngay cuoi van la dong noi bat nhat. */
+.hero__time {
+  position: relative;
+  letter-spacing: 0.34em;
+  text-indent: 0.34em;
+  font-family: var(--font-body);
+  font-size: 1rem;
   font-weight: 500;
   margin-bottom: 34px;
   color: var(--white);
@@ -2309,6 +2330,12 @@
     font-size: 1.25rem;
     letter-spacing: 0.3em;
     text-indent: 0.3em;
+  }
+
+  .hero__time {
+    font-size: 0.95rem;
+    letter-spacing: 0.26em;
+    text-indent: 0.26em;
   }
 
   .countdown {

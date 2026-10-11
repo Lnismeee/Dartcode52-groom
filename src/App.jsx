@@ -234,6 +234,7 @@ function App() {
             </div>
 
             <p className="hero__date">{t.dateLabel}</p>
+            <p className="hero__time">{t.timeLabel}</p>
             <Countdown
               targetDate={WEDDING_INFO.weddingDate}
               labels={t.countdown}
